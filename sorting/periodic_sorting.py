@@ -21,6 +21,20 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 You should have received a copy of the 3-clause BSD along with LHSAC.
 If not, see <https://opensource.org/licenses/BSD-3-Clause>.
 
+citation:
+
+O. Mariani, K. Chan, A. Ernst, N. Mercader and M. Liebling, "Virtual High-Framerate Microscopy Of The Beating Heart Via Sorting Of Still Images," 2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019), Venice, Italy, 2019, pp. 312-315, doi: 10.1109/ISBI.2019.8759595.
+
+@INPROCEEDINGS{8759595,
+  author={O. {Mariani} and K. {Chan} and A. {Ernst} and N. {Mercader} and M. {Liebling}},
+  booktitle={2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019)}, 
+  title={Virtual High-Framerate Microscopy Of The Beating Heart Via Sorting Of Still Images}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={312-315},
+  doi={10.1109/ISBI.2019.8759595}}
+
 """
 
 import numpy as np
