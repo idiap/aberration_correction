@@ -72,26 +72,14 @@ def load_data(filename):
 
 
 def compute_differences(image_in):
-    """
-    Calculates pairwise frame sum of absolute difference.
-    :param image_in: 3D image (XYT)
-    :return: Pairwise frame sum of absolute difference.
-    """
-    n_t = image_in.shape[-1]
-    image_out = np.zeros((n_t, n_t))
-    sum_ = np.sum
-    abs_ = np.abs
-    subtract_ = np.subtract
-    for t0 in range(n_t):
-        for t1 in range(t0, n_t):
-            if t0 == t1:
-                image_out[t0, t1] = 0
-            else:
-                image_tmp = subtract_(image_in[..., t0], image_in[..., t1])
-                image_out[t0, t1] = sum_(abs_(image_tmp))
-            # Calculate upper triangular matrix, then copy values for lower part (symmetry in image difference).
-            image_out[t1, t0] = image_out[t0, t1]
-    return image_out
+    output = np.reshape(image_in, (image_in.shape[0]*image_in.shape[1]*image_in.shape[2]*image_in.shape[3],
+                                  image_in.shape[-1]))
+    image_in = None
+
+    output = pdist(output.T, 'minkowski', p=1)
+    output = squareform(output)
+
+    return output
 
 
 def average_downsizing(input_im, y_downsizing_factor, x_downsizing_factor):
