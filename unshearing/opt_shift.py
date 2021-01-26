@@ -17,6 +17,20 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 
 You should have received a copy of the 3-clause BSD along with LHSAC.
 If not, see <https://opensource.org/licenses/BSD-3-Clause>.
+
+citation: 
+O. Mariani, A. Ernst, N. Mercader and M. Liebling, "Reconstruction of Image Sequences From Ungated and Scanning-Aberrated Laser Scanning Microscopy Images of the Beating Heart," in IEEE Transactions on Computational Imaging, vol. 6, pp. 385-395, 2020, doi: 10.1109/TCI.2019.2948772.
+
+@ARTICLE{8878149,
+  author={O. {Mariani} and A. {Ernst} and N. {Mercader} and M. {Liebling}},
+  journal={IEEE Transactions on Computational Imaging}, 
+  title={Reconstruction of Image Sequences From Ungated and Scanning-Aberrated Laser Scanning Microscopy Images of the Beating Heart}, 
+  year={2020},
+  volume={6},
+  number={},
+  pages={385-395},
+  doi={10.1109/TCI.2019.2948772}}
+
 """
 
 import numpy as np
