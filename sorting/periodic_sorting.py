@@ -21,7 +21,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 You should have received a copy of the 3-clause BSD along with LHSAC.
 If not, see <https://opensource.org/licenses/BSD-3-Clause>.
 
-citation:
+Dataset sorting citation:
 
 O. Mariani, K. Chan, A. Ernst, N. Mercader and M. Liebling, "Virtual High-Framerate Microscopy Of The Beating Heart Via Sorting Of Still Images," 2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019), Venice, Italy, 2019, pp. 312-315, doi: 10.1109/ISBI.2019.8759595.
 
@@ -34,6 +34,22 @@ O. Mariani, K. Chan, A. Ernst, N. Mercader and M. Liebling, "Virtual High-Framer
   number={},
   pages={312-315},
   doi={10.1109/ISBI.2019.8759595}}
+ 
+Apply sorting solution to dataset citation:
+
+O. Mariani, F. Marelli, C. Jaques, A. Ernst and M. Liebling, "Unequivocal cardiac phase sorting from alternating ramp- and pulse- illuminated microscopy image sequences," 2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI 2021), Nice, France, 2021, Accepted for publication
+
+@INPROCEEDINGS{mariani.marelli.ea:21,
+  author={O. {Mariani} and F. {Marelli} and C. {Jaques} and A. {Ernst} and M. {Liebling}},
+  booktitle={2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI 2021)}, 
+  title={Unequivocal cardiac phase sorting from alternating ramp- and pulse- illuminated microscopy image sequences}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={},
+  doi={},
+  note={Accepted for publication}}
+
 
 """
 
